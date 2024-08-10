@@ -1,5 +1,12 @@
 from flask import Flask, render_template
 
+posts = [
+    {
+        "Name": "Straton"
+        "Name": "Amodora"
+    }
+]
+
   
 app = Flask(__name__) #creating the Flask class object   
  
