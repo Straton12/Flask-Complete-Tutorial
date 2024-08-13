@@ -32,11 +32,13 @@
     </header>
 
     <main>
-<!-- using python codes in html -->
+        <h2>About This Page</h2>
+        <p>{{content}}</p>
+        <p>{{r}}</p>
         {%for x in range (10)%}
           {%if x %2 == 1 %}
-        <p>{{x}}</p>
-          {% endif %}
+        <p>x</p>
+          {%{% endif %}%}
         {%endfor%}
 
         <h3>Key Sections</h3>
